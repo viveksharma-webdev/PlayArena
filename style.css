@@ -7,3 +7,10 @@
 body,html{
     color: white;
 }
+
+@media (max-width: 768px) {
+    body {
+      background-color: white;
+      font-size: 14px;
+    }
+  }

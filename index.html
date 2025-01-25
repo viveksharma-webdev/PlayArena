@@ -5,24 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
-    <main class="w-full ">
-        <nav id="navContainer" class=" w-full bg-black flex justify-between items-center">
-           <div>
-            <h2>Pl<span>a</span>y</h2>
-            <h3>Arena</h3>
+    <main class="w-full">
+        <nav id="navContainer" class=" w-full bg-black flex justify-between items-center py-3 px-6">
+           <div class="px-4 py-2 ">
+            <h2 class="text-3xl font-bold px-2">PL<span class="text-blue-500 rotate-90">a</span>Y</h2>
+            <h3 class="bg-white text-black text-lg font-light rounded-sm m-1 px-2">ARENA</h3>
            </div>
-           <div>
-             <div>Play</div>
-             <div>Participate</div>
-             <div>Host</div>
-             <div>F&B</div>
-             <a href=""></a>
-             <a href=""></a>
+           <div class="flex items-center gap-4  py-2">
+             <h2 class="text-2xl font-semibold py-2 px-3 ">Play</h2>
+             <h2 class="text-2xl font-semibold py-2 px-3 ">Participate</h2>
+             <h2 class="text-2xl font-semibold py-2 px-3 ">Host</h2>
+             <h2 class="text-2xl font-semibold py-2 px-3 ">F&B</h2>
+             <a href="" class="py-2 px-1"> <i class="fa-brands fa-whatsapp text-2xl"></i> </a>
+             <a href="" class="py-2 px-1"> <i class="fa-solid fa-location-dot text-2xl"></i> </a>
            </div>
         </nav>
+
+        <div id="heroSection" class="h-[60vh]" >
+            <video src="https://playarena.in/wp-content/uploads/2024/08/pixel-10sec-2.mp4" class="w-full h-full object-cover" muted loop autoplay></video>
+        </div>
+
+        <div id="herocards" class="flex items-center text-black w-full">
+
+            <div class="bg-[#EDFFB3] w-1/5 py-6 px-6">
+              <div>
+                  <h2 class="text-5xl font-semibold">Prime</h2>
+                  <p class="font-md">Strategy and action sports for the squad</p>
+              </div>
+              <h3 class="mt-8 mb-3 border-[1px] rounded-md bg-blue-500 text-white py-2 px-3">View all 7 actiities</h3>
+            </div>
+
+            <div class="bg-[#E8E8E8] w-1/5 py-6 px-6">
+                <div>
+                    <h2 class="text-5xl font-semibold">Studio</h2>
+                    <p class="font-md">Short format, big thrills served a la carte</p>
+                </div>
+                <h3 class="mt-8 mb-3 border-[1px] rounded-md bg-blue-500 text-white py-2 px-3">View all 7 actiities</h3>
+              </div>
+
+              <div class="bg-[#B3F0FF] w-1/5 py-6 px-6">
+                <div>
+                    <h2 class="text-5xl font-semibold">Union</h2>
+                    <p class="font-md">Classic favourites for the recreational sport</p>
+                </div>
+                <h3 class="mt-8 mb-3 border-[1px] rounded-md bg-blue-500 text-white py-2 px-3">View all 7 actiities</h3>
+              </div>
+
+              <div class="bg-[#CBDED4] w-1/5 py-6 px-6">
+                <div>
+                    <h2 class="text-5xl font-semibold">Junior</h2>
+                    <p class="font-md">Toddler-sized fun for <br> little champs</p>
+                </div>
+                <h3 class="mt-8 mb-3 border-[1px] rounded-md bg-blue-500 text-white py-2 px-3">View all 7 actiities</h3>
+              </div>
+
+              <div class="bg-[#D1EBD8] w-1/5 py-6 px-6">
+                <div>
+                    <h2 class="text-5xl font-semibold">Pixel</h2>
+                    <p class="font-md">Shoot, race and more in the gamer's den</p>
+                </div>
+                <h3 class="mt-8 mb-3 border-[1px] rounded-md bg-blue-500 text-white py-2 px-3">View all 7 actiities</h3>
+              </div>
+
+        </div>
+
+        <div>
+            
+        </div>
+
     </main>
     <script src="script.js"></script>
 </body>
