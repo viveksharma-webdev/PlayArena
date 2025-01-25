@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <title>Document</title>
 </head>
@@ -16,7 +17,7 @@
             <h2 class="text-3xl font-bold px-2">PL<span class="text-blue-500 rotate-90">a</span>Y</h2>
             <h3 class="bg-white text-black text-lg font-light rounded-sm m-1 px-2">ARENA</h3>
            </div>
-           <div class="flex items-center gap-4  py-2">
+           <div class="flex items-center gap-4  py-2 text-white">
              <h2 class="text-2xl font-semibold py-2 px-3 ">Play</h2>
              <h2 class="text-2xl font-semibold py-2 px-3 ">Participate</h2>
              <h2 class="text-2xl font-semibold py-2 px-3 ">Host</h2>
@@ -74,11 +75,112 @@
 
         </div>
 
-        <div>
+        <div id="Playcards" class="w-full py-3 px-[7vh] bg-[#EBDBCC] text-black">
+
+            <div class="mt-5 px-[17vh]">
+
+              <h1 class="text-[5vw] font-bold tracking-tight ">Play, Your Way</h1>
+              <p class="text-lg font-light mt-3">When it comes to get-togethers, the more is always the merrier. You bring the people, we'll take care of the rest. Call us for customized birthdays, farewells, anniversaries and other events or group packages with entertainment, music and a fantastic range of F&B to choose from.</p>
+
+              <div id="cards" class="mt-[5vh] flex items-start justify-between">
+
+                <div id="card1" class="w-[23vw]">
+                   <h2>Birthday Bashes</h2>
+                   <img src="./utils/BIRTHDAY-1.webp" alt="" class="object-cover w-full ">
+                   <p class="mt-4">Thrilling activities, exciting games, and delicious food—our custom packages ensure unforgettable experiences for all ages</p>
+                   <h2 class="mt-[5vh] text-lg font-medium px-3 py-3 border-[1px] border-black w-1/2 rounded-md">Find Out More</h2>
+                </div>
+
+                <div id="card1" class="w-[23vw]">
+                  <h2>Corporate Events</h2>
+                  <img src="./utils/corporate-1-1.webp" alt="" class="object-cover w-full ">
+                  <p class= "mt-4 ">Nothing like a game to get the teamwork going. Talk to us to find out more about our corporate packages for offsites, team building activities, leadership meets, outbound learning and more.</p>
+                  <h2 class="mt-[3vh] text-lg font-medium px-3 py-3 border-[1px] border-black w-1/2 rounded-md">Find Out More</h2>
+               </div>
+
+               <div id="card1" class="w-[23vw]">
+                <h2>Play Dates</h2>
+                <img src="./utils/PERFECT-DATE-1.webp" alt="" class="object-cover w-full ">
+                <p class="mt-4">Experience Play Dates, any day of the week, enjoy this special offer and quality time with your partner. Perfect for fun and connection!</p>
+                <h2 class="mt-[5vh] text-lg font-medium px-3 py-3 border-[1px] border-black w-1/2 rounded-md">Find Out More</h2>
+             </div>
+
+            </div>
+
+            <h2 class="w-full text-4xl font-semibold mt-[5vh] mb-[7vh] underline text-center">Have an offbeat idea? Create your own event, fully customised</h2>
+
+            </div>
+
             
         </div>
 
+        <div id="snipercards" class="py-[7vh] px-[7vh] tracking-tight ">
+
+          <h1 class="text-5xl font-bold">SPECIALS</h1>
+
+          <div class="swiper mySwiper mt-[5vh]">
+            <div class="swiper-wrapper ">
+              <div class="swiper-slide flex items-start justify-between">
+              <div id="TheaterCard" class="w-1/4 ">
+                <img src="./utils/storytelling-session-02-1200-x-800-px.png" alt="" class="object-cover">
+                <h2 class="text-5xl font-semibold mt-3 text-start ">Storytelling Session-The New Year's Wish</h2>
+                <p class="text-start font-thin text-lg mt-5">Spark your child's imagination with our enchanting storytelling sessions! Magical tales, fun activities and endless advanture awaits. Join the fun today</p>
+              </div>
+
+              <div id="TheaterCard" class="w-1/4 ">
+                <img src="./utils/movie-night-poster-for-website.jpg" alt="" class="object-cover">
+                <h2 class="text-5xl font-semibold mt-3 text-start ">Movie Nights-Intersteller</h2>
+                <p class="text-start font-thin text-lg mt-5">Come for the movie,stay for the memories-Starflix Nights is your ticket to a magical night under the stars!</p>
+                <h5 class="mt-5 text-lg font-thin text-blue-400 text-start">Book Now!</h5>
+              </div>
+
+              <div id="TheaterCard" class="w-1/4 ">
+                <img src="./utils/storytelling-session-02-1200-x-800-px.png" alt="" class="object-cover">
+                <h2 class="text-5xl font-semibold mt-3 text-start ">Storytelling Session-The New Year's Wish</h2>
+                <p class="text-start font-thin text-lg mt-5">Spark your child's imagination with our enchanting storytelling sessions! Magical tales, fun activities and endless advanture awaits. Join the fun today</p>
+              </div>
+
+            </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <div id="Booking" class="w-full bg-black text-white flex items-center px-[7vh] ">
+          <div id="BookingContainer" class=" mt-[5vw] px-[20vh] py-[7vh]">
+            <h1 class="text-5xl font-bold tracking-tight mb-4">Book Your Slot</h1>
+            <p class="text-lg font-bold tracking-normal mb-5">To find special offers, occupancy rate and free time</p>
+            <form action="">
+              <input type="date" placeholder="Select the Date" class="bg-[#EDFFB3] px-3 py-2 text-black w-full">
+            </form>
+          </div>
+        </div>
+
+        <div id="Marque" class="w-full flex items-center gap-9 bg-[#EDFFB3] py-3 px-7">
+          <h3 class="text-lg font-semibold">For The Love Of Play</h3>
+          <h3 class="text-lg font-semibold">For The Love Of Play</h3>
+          <h3 class="text-lg font-semibold">For The Love Of Play</h3>
+          <h3 class="text-lg font-semibold">For The Love Of Play</h3>
+          <h3 class="text-lg font-semibold">For The Love Of Play</h3>
+          <h3 class="text-lg font-semibold">For The Love Of Play</h3>
+          <h3 class="text-lg font-semibold">For The Love Of Play</h3>
+          <h3 class="text-lg font-semibold">For The Love Of Play</h3>
+          <h3 class="text-lg font-semibold">For The Love Of Play</h3>
+          <h3 class="text-lg font-semibold">For The Love Of Play</h3>
+        </div>
+
+        <div id="Extra" class="w-full  flex items-center px-[7vh] bg-[#E8E8E8] ">
+          <div id="BookingContainer" class=" mt-[5vw] px-[20vh] py-[5vh] flex">
+            <div class="">
+              <h1 class="text-7xl font-bold">Play like <br> a Pro</h1>
+              <p class="text-lg font-normal mt-5">We call this our Royalty Programme</p>
+              <h4 class="px-4 py-2 bg-blue-500 rounded-md text-lg font-bold mt-[4vh] text-white">Become a member</h4>
+            </div>
+          </div>
+        </div>
+
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
